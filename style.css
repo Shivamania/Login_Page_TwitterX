@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #999999;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.2rem 2rem;
+    padding: 1%;
+    border-radius: 12px;
+    background: #ffffff;
+    width: 39%;
+    height: 95%;
+}
+
+.sign-in-text {
+    font-family: 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,  Helvetica, Arial,  sans-serif;
+font-size: 31px;
+font-weight: 700;
+line-height: 36px;
+color: rgb(15, 20, 25);
+margin-right: 20%;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+button {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  Helvetica, Arial,  sans-serif;;
+display: flex;
+align-items: center;
+border: 0.1px rgb(226, 223, 223) solid;
+border-radius: 24px;
+background-color: white;
+padding: 0.5rem 3rem;
+margin: 1rem 0 0.5rem 0;
+font-size: 15px;
+line-height: 15px;
+
+}
+
+#google-sign {
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+button img {
+    padding-right: 1rem;
+}
+
+button#apple-sign>p {
+    font-weight: bold;
+}
+
+img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+form {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: .8rem;
+    font-size: medium;
+}
+
+input[type="text"] {
+border: 0.1px rgb(201, 196, 196) solid;
+border-radius: 4px;
+padding: 1rem 1rem 1rem 1rem;
+margin-top: .5px;
+
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #1d9bf0;
+    cursor: pointer;
+}
+
+#next {
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 24px;
+    padding: .5rem 4rem;
+    font-weight: bold;
+}
+
+#next:hover {
+    cursor: pointer;
+}
+
+#forgot {
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    padding: .5rem 4rem;
+    font-weight: bold;
+}
+
+#forgot:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+#signup {
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+#signup a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
